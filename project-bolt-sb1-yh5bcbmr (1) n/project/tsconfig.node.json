@@ -13,6 +13,9 @@
 
     /* Obligatoire pour projet composite */
     "composite": true,
+
+    /* IMPORTANT : pour éviter l’erreur TS5096 */
+    "noEmit": true,
     
     /* Linting */
     "strict": true,
