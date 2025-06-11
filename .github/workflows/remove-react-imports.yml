@@ -1,0 +1,33 @@
+name: Remove Unused React Imports
+
+on:
+  push:
+    branches:
+      - main  # or replace with your actual branch
+
+jobs:
+  remove-imports:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Needed to push changes back
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # or your Node version
+
+      - name: Run import removal script
+        run: |
+          node removeReactImports.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Remove unused React imports" || echo "No changes to commit"
+          git push origin main
