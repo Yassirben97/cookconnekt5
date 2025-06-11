@@ -14,9 +14,10 @@
     /* Obligatoire pour projet composite */
     "composite": true,
 
-    /* IMPORTANT : pour éviter l’erreur TS5096 */
-    "noEmit": true,
-    
+    /* Emit declaration files only (fix TS6310 error) */
+    "emitDeclarationOnly": true,
+    "declaration": true,
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
