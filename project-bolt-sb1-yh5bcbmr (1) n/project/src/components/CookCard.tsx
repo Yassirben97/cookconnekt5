@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Star, Clock, ChefHat } from 'lucide-react';
 import { Cook } from '../types';
 

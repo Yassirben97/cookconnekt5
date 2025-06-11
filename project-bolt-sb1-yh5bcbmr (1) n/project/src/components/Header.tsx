@@ -1,4 +1,3 @@
-import React from 'react';
 import { ChefHat, Users, FileText, Shield } from 'lucide-react';
 
 interface HeaderProps {

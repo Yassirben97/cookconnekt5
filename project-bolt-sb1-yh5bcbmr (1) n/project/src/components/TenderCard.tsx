@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Clock, DollarSign, Eye, EyeOff, Calendar } from 'lucide-react';
 import { Tender } from '../types';
 

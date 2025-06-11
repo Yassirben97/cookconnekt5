@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowLeft, MapPin, Star, Clock, Mail, Phone, Award, MessageCircle, CheckCircle } from 'lucide-react';
 import { Cook } from '../types';
 import { formatMoroccanPhone } from '../data/mockData';

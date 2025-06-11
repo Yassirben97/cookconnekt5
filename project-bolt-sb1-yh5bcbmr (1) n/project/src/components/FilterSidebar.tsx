@@ -1,4 +1,3 @@
-import React from 'react';
 import { Filter, MapPin, Briefcase } from 'lucide-react';
 import { FilterPosition } from '../types';
 import { moroccanCities } from '../data/mockData';
