@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Header from './components/Header';
 import CooksPage from './components/CooksPage';
 import TendersPage from './components/TendersPage';
