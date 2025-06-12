@@ -1,4 +1,4 @@
-import { MapPin, Star, Clock, ChefHat } from 'lucide-react';
+import { MapPin, Star, Clock } from 'lucide-react';
 import { Cook } from '../types';
 
 interface CookCardProps {
