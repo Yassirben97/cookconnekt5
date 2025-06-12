@@ -1,4 +1,4 @@
-import { CheckCircle, XCircle, Eye, MapPin, DollarSign, Calendar, Clock } from 'lucide-react';
+import { CheckCircle, XCircle, MapPin, DollarSign, Calendar, Clock } from 'lucide-react';
 import { Tender } from '../types';
 import { pendingTenders } from '../data/mockData';
 
