@@ -1,4 +1,3 @@
-import React, { useState, useMemo } from 'react';
 import { Search, Plus } from 'lucide-react';
 import TenderCard from './TenderCard';
 import { tenders, moroccanCities } from '../data/mockData';
