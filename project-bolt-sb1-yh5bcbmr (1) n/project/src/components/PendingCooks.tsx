@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { CheckCircle, XCircle, Eye, MapPin, Clock, Phone, MessageCircle, Image, AlertCircle } from 'lucide-react';
 import { Cook } from '../types';
 import { pendingCooks, validateMoroccanPhone, formatMoroccanPhone } from '../data/mockData';
